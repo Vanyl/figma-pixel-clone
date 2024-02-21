@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D74949;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    background-color: #F3F3F3;
+    max-width: 1110px;
+    padding: 0 50px 0 51px;
+    /* margin: 0 165px 0 165px; */
+    min-height: 90.4vh;
+    margin: 0 auto;
+}
+
+section{
+    padding-top: 100px;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 16px;
+    text-align: right;
+}
+
+p{
+    font-weight: 700;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+
+p span{
+    color: #8F2727;
+}
+
+.card{
+    border-radius: 15px;
+    width: 200px;
+    height: 300px;
+    /* margin: 38px 0 100px 50px;  */
+    margin: 38px 0 0 0; 
+    box-shadow: 0 4px 4px #00000040;
+    padding-bottom: 100px;
+}
+
+img{
+    width: 200px;
+    height: 185px;
+    border-radius: 15px 15px 0 0;
+}
+
+.information{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.name{
+    font-weight: 700;
+    letter-spacing: 4%;
+    margin-bottom: 3px;
+}
+
+.job{
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.icon{
+    width: 18px;
+    height: 18px;
+    border-radius: 0;
+}
+
+footer{
+    background-color: #3A3A3A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    padding: 27px;
+    /* position: absolute;
+    bottom: 0px;
+    width: 100%; */
+}
